@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func timePtr(t time.Time) *time.Time { return &t }

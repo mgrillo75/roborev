@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/testutil"
+	"go.kenn.io/roborev/internal/testutil"
 )
 
 func initTestGitRepo(t *testing.T) string {

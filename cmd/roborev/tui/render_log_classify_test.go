@@ -6,8 +6,8 @@ import (
 
 	"github.com/mattn/go-runewidth"
 	"github.com/muesli/ansi"
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func TestClassifyReasoningLines(t *testing.T) {

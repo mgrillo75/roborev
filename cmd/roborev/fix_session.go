@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/roborev-dev/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/agent"
 )
 
 // fixSessionTracker keeps the most-recent agent session ID across

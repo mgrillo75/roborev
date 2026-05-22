@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/config"
 )
 
 func TestIsConfiguredACPAgentName(t *testing.T) {

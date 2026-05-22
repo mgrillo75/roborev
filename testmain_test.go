@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/testenv"
+	"go.kenn.io/roborev/internal/testenv"
 )
 
 // TestMain isolates the root e2e test package from production

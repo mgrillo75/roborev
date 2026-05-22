@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/githook"
-	"github.com/roborev-dev/roborev/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/githook"
+	"go.kenn.io/roborev/internal/testutil"
 )
 
 func setupHookTest(t *testing.T) *testutil.TestRepo {

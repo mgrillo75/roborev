@@ -8,9 +8,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/git"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/git"
 )
 
 // configScope represents which configuration source to read/write.

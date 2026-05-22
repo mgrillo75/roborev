@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/roborev-dev/roborev/internal/config"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/config"
 
 	// getIntegrationPostgresURL returns the postgres URL for integration tests.
 	// Set via TEST_POSTGRES_URL environment variable or use default from docker-compose.test.yml

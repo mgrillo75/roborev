@@ -8,7 +8,7 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/roborev-dev/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/daemon"
 )
 
 // sseEventMsg signals that the daemon broadcast an event.

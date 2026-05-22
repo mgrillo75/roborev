@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/git"
+	"go.kenn.io/roborev/internal/git"
 )
 
 // ErrNonShellHook is returned when a hook uses a non-shell

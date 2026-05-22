@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/daemon"
-	"github.com/roborev-dev/roborev/internal/git"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/git"
 )
 
 // gitSHAPattern matches a full hex git SHA: 40 chars (SHA-1)

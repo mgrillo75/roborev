@@ -11,8 +11,8 @@ import (
 	"time"
 
 	acp "github.com/coder/acp-go-sdk"
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/version"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/version"
 )
 
 // Security error for path traversal attempts

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/mattn/go-runewidth"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func (m model) renderLogView() string {

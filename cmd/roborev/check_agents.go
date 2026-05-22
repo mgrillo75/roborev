@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/agent"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/agent"
 )
 
 func checkAgentsCmd() *cobra.Command {

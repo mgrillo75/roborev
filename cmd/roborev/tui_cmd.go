@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/roborev-dev/roborev/cmd/roborev/tui"
-	"github.com/roborev-dev/roborev/internal/daemon"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/cmd/roborev/tui"
+	"go.kenn.io/roborev/internal/daemon"
 )
 
 func tuiCmd() *cobra.Command {

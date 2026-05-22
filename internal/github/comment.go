@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	googlegithub "github.com/google/go-github/v84/github"
-	"github.com/roborev-dev/roborev/internal/review"
+	"go.kenn.io/roborev/internal/review"
 )
 
 // CommentMarker is an invisible HTML marker embedded in every roborev PR

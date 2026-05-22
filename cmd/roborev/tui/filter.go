@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func moveToFront[T any](items []T, match func(T) bool) {

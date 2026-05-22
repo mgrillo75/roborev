@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/daemon"
-	"github.com/roborev-dev/roborev/internal/version"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/version"
 )
 
 func TestEnsureDaemonRestartsWhenLegacyProbeHasNoVersion(t *testing.T) {

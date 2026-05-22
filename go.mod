@@ -1,4 +1,4 @@
-module github.com/roborev-dev/roborev
+module go.kenn.io/roborev
 
 go 1.25.0
 

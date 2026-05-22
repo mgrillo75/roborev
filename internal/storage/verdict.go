@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 const (

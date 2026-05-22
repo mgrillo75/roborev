@@ -16,8 +16,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	gitpkg "github.com/roborev-dev/roborev/internal/git"
+	"go.kenn.io/roborev/internal/config"
+	gitpkg "go.kenn.io/roborev/internal/git"
 )
 
 // HookRunner listens for broadcaster events and runs configured hooks.

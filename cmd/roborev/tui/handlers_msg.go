@@ -10,9 +10,9 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/streamfmt"
-	"github.com/roborev-dev/roborev/internal/version"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/streamfmt"
+	"go.kenn.io/roborev/internal/version"
 )
 
 // handleJobsMsg processes job list updates from the server.

@@ -11,9 +11,9 @@ import (
 	"unicode/utf8"
 
 	googlegithub "github.com/google/go-github/v84/github"
-	"github.com/roborev-dev/roborev/internal/review"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/review"
 )
 
 type commentAPIServer struct {

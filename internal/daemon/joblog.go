@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 var jobLogOpenRetryInterval = 5 * time.Second

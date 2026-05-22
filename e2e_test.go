@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/daemon"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/testenv"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/testenv"
 )
 
 // TestE2EEnqueueAndReview tests the full flow of enqueueing and reviewing a commit

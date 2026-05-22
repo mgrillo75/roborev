@@ -3,7 +3,7 @@ package storage
 import (
 	"log"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // normalizeMinSeverityForWrite returns the canonical lowercase value or empty

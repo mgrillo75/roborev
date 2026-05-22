@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/prompt/analyze"
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/prompt/analyze"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func TestWaitForAnalysisJob(t *testing.T) {

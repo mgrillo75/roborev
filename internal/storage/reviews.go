@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/agent"
 )
 
 // GetReviewByJobID finds a review by its job ID

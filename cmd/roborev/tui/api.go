@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/daemon"
-	daemonclient "github.com/roborev-dev/roborev/internal/daemon_client"
+	"go.kenn.io/roborev/internal/daemon"
+	daemonclient "go.kenn.io/roborev/internal/daemon_client"
 )
 
 // errNotFound is returned for 404 daemon API responses.

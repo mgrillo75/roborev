@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // CompactMetadata stores source job IDs for a compact job

@@ -8,10 +8,10 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/githook"
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/githook"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 type statusJSONResult struct {

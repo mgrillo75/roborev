@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/daemon"
-	"github.com/roborev-dev/roborev/internal/prompt/analyze"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/prompt/analyze"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/testutil"
 )
 
 func TestExpandAndReadFiles(t *testing.T) {

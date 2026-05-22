@@ -112,7 +112,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://roborev.io/install.ps1 | iex"
 
 **With Go:**
 ```bash
-go install github.com/roborev-dev/roborev/cmd/roborev@latest
+go install go.kenn.io/roborev/cmd/roborev@latest
 ```
 
 ## Developer Setup

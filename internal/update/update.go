@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/version"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/version"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/prompt"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/prompt"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 const maxInsightsReviews = 100

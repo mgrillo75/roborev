@@ -11,13 +11,13 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/daemon"
-	daemonclient "github.com/roborev-dev/roborev/internal/daemon_client"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/streamfmt"
-	"github.com/roborev-dev/roborev/internal/update"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/daemon"
+	daemonclient "go.kenn.io/roborev/internal/daemon_client"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/streamfmt"
+	"go.kenn.io/roborev/internal/update"
 )
 
 func (m model) tick() tea.Cmd {

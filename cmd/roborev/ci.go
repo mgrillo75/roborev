@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/git"
-	ghpkg "github.com/roborev-dev/roborev/internal/github"
-	"github.com/roborev-dev/roborev/internal/review"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/git"
+	ghpkg "go.kenn.io/roborev/internal/github"
+	"go.kenn.io/roborev/internal/review"
 )
 
 func ciCmd() *cobra.Command {

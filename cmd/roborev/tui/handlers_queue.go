@@ -5,7 +5,7 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func (m *model) handleQueueMouseClick(_ int, y int) {

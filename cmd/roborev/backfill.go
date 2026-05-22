@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func backfillVerdictsCmd() *cobra.Command {

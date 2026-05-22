@@ -21,13 +21,13 @@ import (
 	"github.com/coreos/go-systemd/v22/daemon"
 	"github.com/danielgtaylor/huma/v2"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/githook"
-	"github.com/roborev-dev/roborev/internal/prompt"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/version"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/githook"
+	"go.kenn.io/roborev/internal/prompt"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/version"
 )
 
 // Server is the HTTP API server for the daemon

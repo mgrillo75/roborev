@@ -8,9 +8,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/prompt"
-	"github.com/roborev-dev/roborev/internal/review/autotype"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/prompt"
+	"go.kenn.io/roborev/internal/review/autotype"
 )
 
 // classifyReasonMaxLen caps the classifier reason at storage time. Even

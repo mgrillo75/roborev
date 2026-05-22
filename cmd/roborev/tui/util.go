@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func shortRef(ref string) string {

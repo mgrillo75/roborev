@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 type agentSpec struct {

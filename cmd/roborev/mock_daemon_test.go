@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/version"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/version"
 )
 
 func TestCreateMockRefineHandler_MethodEnforcement(t *testing.T) {

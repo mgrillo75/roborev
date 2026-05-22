@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/git"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/git"
 )
 
 func commentCmd() *cobra.Command {

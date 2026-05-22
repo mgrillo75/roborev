@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/config"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // registerAgentCompletion registers shell completion for the --agent flag.

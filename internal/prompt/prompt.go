@@ -11,9 +11,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // ErrDiffTruncatedNoFile is returned when the diff is too large to

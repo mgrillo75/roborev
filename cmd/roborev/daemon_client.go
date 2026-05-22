@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/daemon"
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // waitForJob polls until a job completes and displays the review

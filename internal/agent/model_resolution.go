@@ -3,7 +3,7 @@ package agent
 import (
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // WorkflowConfig captures the workflow-specific agent resolution context

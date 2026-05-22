@@ -19,12 +19,12 @@ import (
 	"github.com/charmbracelet/lipgloss/table"
 	"github.com/mattn/go-runewidth"
 	"github.com/muesli/termenv"
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/daemon"
-	daemonclient "github.com/roborev-dev/roborev/internal/daemon_client"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/streamfmt"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/daemon"
+	daemonclient "go.kenn.io/roborev/internal/daemon_client"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/streamfmt"
 )
 
 // Tick intervals for local redraws and fallback polling.

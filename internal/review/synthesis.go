@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/git"
+	"go.kenn.io/roborev/internal/git"
 )
 
 // severityAbove maps a minimum severity to the instruction

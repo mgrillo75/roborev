@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/config"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/config"
 )
 
 func TestResolveWorkflowModelForAgentSkipsGenericDefaultModel(t *testing.T) {

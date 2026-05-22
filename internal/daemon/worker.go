@@ -12,14 +12,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/config"
-	gitpkg "github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/prompt"
-	"github.com/roborev-dev/roborev/internal/review"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/tokens"
-	"github.com/roborev-dev/roborev/internal/worktree"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/config"
+	gitpkg "go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/prompt"
+	"go.kenn.io/roborev/internal/review"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/tokens"
+	"go.kenn.io/roborev/internal/worktree"
 )
 
 // WorkerPool manages a pool of review workers

@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/daemon"
-	"github.com/roborev-dev/roborev/internal/streamfmt"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/streamfmt"
 )
 
 func logCmd() *cobra.Command {

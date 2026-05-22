@@ -7,15 +7,15 @@ import (
 	"errors"
 	"fmt"
 	googlegithub "github.com/google/go-github/v84/github"
-	ghpkg "github.com/roborev-dev/roborev/internal/github"
+	ghpkg "go.kenn.io/roborev/internal/github"
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/review"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/testutil"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/review"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/testutil"
 
 	// ciPollerHarness bundles DB, repo, config, and poller for CI poller tests.
 	"github.com/stretchr/testify/require"

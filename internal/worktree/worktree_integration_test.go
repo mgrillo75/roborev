@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/testutil"
-	"github.com/roborev-dev/roborev/internal/worktree"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/testutil"
+	"go.kenn.io/roborev/internal/worktree"
 )
 
 func requireGitAvailable(t *testing.T) {

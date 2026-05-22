@@ -5,8 +5,8 @@ package main
 import (
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/agent"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/agent"
 )
 
 func TestLocalReviewReasoningLevels(t *testing.T) {

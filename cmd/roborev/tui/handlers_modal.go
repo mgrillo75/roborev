@@ -9,7 +9,7 @@ import (
 	"unicode"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // handleCommentKey handles key input in the comment modal.

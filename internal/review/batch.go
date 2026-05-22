@@ -6,9 +6,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/prompt"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/prompt"
 )
 
 // BatchConfig holds parameters for a parallel review batch.

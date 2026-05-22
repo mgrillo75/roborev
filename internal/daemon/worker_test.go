@@ -11,14 +11,14 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/config"
-	gitpkg "github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/prompt"
-	"github.com/roborev-dev/roborev/internal/review"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/testutil"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/config"
+	gitpkg "go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/prompt"
+	"go.kenn.io/roborev/internal/review"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/testutil"
 
 	// workerTestContext encapsulates the common setup for worker pool tests.
 	"github.com/stretchr/testify/require"

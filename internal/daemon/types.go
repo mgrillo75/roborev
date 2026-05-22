@@ -1,6 +1,6 @@
 package daemon
 
-import "github.com/roborev-dev/roborev/internal/storage"
+import "go.kenn.io/roborev/internal/storage"
 
 type EnqueueRequest struct {
 	RepoPath     string `json:"repo_path"`

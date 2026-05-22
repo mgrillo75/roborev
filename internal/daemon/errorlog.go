@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // ErrorEntry represents a single error log entry

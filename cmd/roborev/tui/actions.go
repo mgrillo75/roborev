@@ -10,11 +10,11 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	daemonclient "github.com/roborev-dev/roborev/internal/daemon_client"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/worktree"
 	godiff "github.com/sourcegraph/go-diff/diff"
+	daemonclient "go.kenn.io/roborev/internal/daemon_client"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/worktree"
 )
 
 // tui_actions.go contains action/mutation functions extracted from tui.go.

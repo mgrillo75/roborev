@@ -1,7 +1,7 @@
 # Makefile for roborev development builds
 
 VERSION := $(shell git describe --tags --always --dirty 2>/dev/null || echo "dev")
-LDFLAGS := -X github.com/roborev-dev/roborev/internal/version.Version=$(VERSION)
+LDFLAGS := -X go.kenn.io/roborev/internal/version.Version=$(VERSION)
 ACP_TEST_COMMAND ?= $(abspath scripts/acp-agent)
 ACP_TEST_ADAPTER ?= codex
 ACP_TEST_ARGS ?=

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func mockCommentHandler(t *testing.T, receivedJobID *int64) http.HandlerFunc {

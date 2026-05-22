@@ -14,8 +14,8 @@ import (
 
 	"github.com/BurntSushi/toml"
 	tomlv2 "github.com/pelletier/go-toml/v2"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/review/autotype"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/review/autotype"
 )
 
 // ConfigParseError is returned when .roborev.toml exists but

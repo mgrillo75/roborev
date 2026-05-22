@@ -3,8 +3,8 @@ package daemon
 import (
 	"context"
 
-	"github.com/roborev-dev/roborev/internal/config"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/config"
 
 	// configWatcherHarness encapsulates the watcher, broadcaster, temp paths, and event channel.
 	"github.com/stretchr/testify/require"

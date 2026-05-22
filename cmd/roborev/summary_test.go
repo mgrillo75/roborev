@@ -4,8 +4,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func TestRepoLabels(t *testing.T) {

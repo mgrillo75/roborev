@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // InsightsSystemPrompt is the instruction for analyzing review patterns

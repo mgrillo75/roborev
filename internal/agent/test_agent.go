@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/git"
+	"go.kenn.io/roborev/internal/git"
 )
 
 // TestAgentCall records a single Review() invocation for assertion in tests.

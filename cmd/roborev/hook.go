@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/githook"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/githook"
 )
 
 func installHookCmd() *cobra.Command {

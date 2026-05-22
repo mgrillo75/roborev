@@ -6,11 +6,11 @@ import (
 	"log"
 	"sync/atomic"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/review/autotype"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/review/autotype"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // AutoDesignMetrics carries per-outcome counters for the auto-design router.

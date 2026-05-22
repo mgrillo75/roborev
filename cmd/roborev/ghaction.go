@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/ghaction"
-	"github.com/roborev-dev/roborev/internal/git"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/ghaction"
+	"go.kenn.io/roborev/internal/git"
 )
 
 func ghActionCmd() *cobra.Command {

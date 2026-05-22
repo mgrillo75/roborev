@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // Sync state keys

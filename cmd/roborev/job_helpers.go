@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // waitForJobCompletion polls a job until it completes, streaming output if provided.

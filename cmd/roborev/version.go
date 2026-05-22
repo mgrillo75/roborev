@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/roborev-dev/roborev/internal/version"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/version"
 )
 
 func versionCmd() *cobra.Command {

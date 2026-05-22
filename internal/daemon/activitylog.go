@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // ActivityEntry represents a single activity log entry

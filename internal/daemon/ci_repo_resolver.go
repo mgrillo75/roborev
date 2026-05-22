@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	ghpkg "github.com/roborev-dev/roborev/internal/github"
+	"go.kenn.io/roborev/internal/config"
+	ghpkg "go.kenn.io/roborev/internal/github"
 )
 
 // repoRefreshInterval is the fixed interval between wildcard repo

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/stretchr/testify/assert"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func TestBuildInsightsPrompt_Basic(t *testing.T) {

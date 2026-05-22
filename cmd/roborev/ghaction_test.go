@@ -6,10 +6,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/config"
-	"github.com/roborev-dev/roborev/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/config"
+	"go.kenn.io/roborev/internal/testutil"
 )
 
 func setupGhActionTest(t *testing.T) (*testutil.TestRepo, string) {

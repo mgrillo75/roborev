@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/tokens"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/tokens"
 )
 
 func backfillTokensCmd() *cobra.Command {

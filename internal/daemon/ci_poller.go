@@ -18,14 +18,14 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/config"
-	gitpkg "github.com/roborev-dev/roborev/internal/git"
-	ghpkg "github.com/roborev-dev/roborev/internal/github"
-	"github.com/roborev-dev/roborev/internal/prompt"
-	reviewpkg "github.com/roborev-dev/roborev/internal/review"
-	"github.com/roborev-dev/roborev/internal/review/autotype"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/config"
+	gitpkg "go.kenn.io/roborev/internal/git"
+	ghpkg "go.kenn.io/roborev/internal/github"
+	"go.kenn.io/roborev/internal/prompt"
+	reviewpkg "go.kenn.io/roborev/internal/review"
+	"go.kenn.io/roborev/internal/review/autotype"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // errLocalRepoNotFound is returned by findLocalRepo when no registered

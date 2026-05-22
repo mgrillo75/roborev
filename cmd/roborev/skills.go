@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/roborev-dev/roborev/internal/skills"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/skills"
 )
 
 func skillsCmd() *cobra.Command {

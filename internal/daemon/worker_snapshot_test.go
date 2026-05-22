@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	gitpkg "github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/agent"
+	gitpkg "go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/testutil"
 )
 
 // These tests verify the end-to-end diff snapshot flow: the worker

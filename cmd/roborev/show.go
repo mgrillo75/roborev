@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
-	"github.com/roborev-dev/roborev/internal/tokens"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/tokens"
 )
 
 func showCmd() *cobra.Command {

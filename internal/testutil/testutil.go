@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 const (

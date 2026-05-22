@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/roborev-dev/roborev/internal/daemon"
-	"github.com/roborev-dev/roborev/internal/git"
-	"github.com/roborev-dev/roborev/internal/storage"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/git"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 func insightsCmd() *cobra.Command {

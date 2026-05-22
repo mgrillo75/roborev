@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/roborev-dev/roborev/internal/config"
+	"go.kenn.io/roborev/internal/config"
 )
 
 // SchemaAgent is an optional Agent capability. Implementers return a single

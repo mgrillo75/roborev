@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 // controlRequest is the JSON envelope for incoming control commands.

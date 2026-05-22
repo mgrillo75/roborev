@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/roborev-dev/roborev/internal/agent"
-	"github.com/roborev-dev/roborev/internal/review/autotype"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.kenn.io/roborev/internal/agent"
+	"go.kenn.io/roborev/internal/review/autotype"
 )
 
 type fakeSchemaAgent struct {

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/roborev-dev/roborev/internal/git"
 	"github.com/spf13/cobra"
+	"go.kenn.io/roborev/internal/git"
 )
 
 func waitCmd() *cobra.Command {

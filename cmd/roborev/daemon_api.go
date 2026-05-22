@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/roborev-dev/roborev/internal/storage"
+	"go.kenn.io/roborev/internal/storage"
 )
 
 var errReviewNotFound = errors.New("review not found")

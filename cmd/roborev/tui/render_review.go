@@ -8,7 +8,7 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	xansi "github.com/charmbracelet/x/ansi"
 	"github.com/mattn/go-runewidth"
-	"github.com/roborev-dev/roborev/internal/tokens"
+	"go.kenn.io/roborev/internal/tokens"
 )
 
 func (m model) renderReviewView() string {

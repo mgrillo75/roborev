@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/roborev-dev/roborev/internal/daemon"
+	"go.kenn.io/roborev/internal/daemon"
 )
 
 func main() {
