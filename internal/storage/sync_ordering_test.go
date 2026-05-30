@@ -64,6 +64,53 @@ func TestUpsertPulledResponse_WithParentJob(t *testing.T) {
 	assert.Equal(t, 1, count)
 }
 
+func TestSyncCursorLookbackDefaultAndOverride(t *testing.T) {
+	t.Setenv(syncCursorLookbackEnv, "")
+	assert.Equal(t, defaultSyncCursorLookback, syncCursorLookback())
+
+	t.Setenv(syncCursorLookbackEnv, "30s")
+	assert.Equal(t, 30*time.Second, syncCursorLookback())
+
+	t.Setenv(syncCursorLookbackEnv, "bad")
+	assert.Equal(t, defaultSyncCursorLookback, syncCursorLookback())
+}
+
+func TestRewindResponseCursorRewindsTimestampAndResetsLegacyID(t *testing.T) {
+	cursorTime := time.Date(2026, 5, 30, 12, 0, 0, 0, time.UTC)
+	cursor := formatTimestampIDCursor(cursorTime, 42)
+
+	assert.Equal(t, formatTimestampIDCursor(cursorTime.Add(-30*time.Second), 42), rewindResponseCursor(cursor, 30*time.Second))
+	assert.Empty(t, rewindResponseCursor("42", 30*time.Second))
+	assert.Empty(t, responseCursorForMax("42"))
+	assert.Equal(t, cursor, responseCursorForMax(cursor))
+}
+
+func TestUpsertPulledReviewSkipsStaleRemoteUpdate(t *testing.T) {
+	h := newSyncTestHelper(t)
+	job := h.createCompletedJob("stale-review-sha")
+	review, err := h.db.GetReviewByJobID(job.ID)
+	require.NoError(t, err)
+
+	require.NoError(t, h.db.MarkReviewClosed(review.ID, true))
+
+	err = h.db.UpsertPulledReview(PulledReview{
+		UUID:               review.UUID,
+		JobUUID:            job.UUID,
+		Agent:              review.Agent,
+		Prompt:             review.Prompt,
+		Output:             review.Output,
+		Closed:             false,
+		UpdatedByMachineID: GenerateUUID(),
+		CreatedAt:          review.CreatedAt,
+		UpdatedAt:          time.Now().Add(-time.Hour),
+	})
+	require.NoError(t, err)
+
+	review, err = h.db.GetReviewByJobID(job.ID)
+	require.NoError(t, err)
+	assert.True(t, review.Closed)
+}
+
 // TestClearAllSyncedAt verifies that ClearAllSyncedAt clears synced_at
 // on all tables (jobs, reviews, responses).
 func TestClearAllSyncedAt(t *testing.T) {
@@ -204,15 +251,12 @@ func TestBatchMarkSynced(t *testing.T) {
 		// Empty slices should not error
 		if err := h.db.MarkJobsSynced([]int64{}); err != nil {
 			require.NoError(t, err)
-
 		}
 		if err := h.db.MarkReviewsSynced([]int64{}); err != nil {
 			require.NoError(t, err)
-
 		}
 		if err := h.db.MarkCommentsSynced([]int64{}); err != nil {
 			require.NoError(t, err)
-
 		}
 	})
 }
